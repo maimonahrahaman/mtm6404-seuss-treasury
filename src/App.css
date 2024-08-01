@@ -39,3 +39,93 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.books-container img {
+  margin: 10px;
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.books-container img:hover {
+  transform: scale(1.05);
+}
+
+.book-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.book-details img {
+  margin-right: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.quotes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.quote {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: calc(33% - 40px);
+  box-sizing: border-box;
+}
+
+.quote p {
+  margin: 0;
+  font-style: italic;
+}
+
+.quote span {
+  display: block;
+  margin-top: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
